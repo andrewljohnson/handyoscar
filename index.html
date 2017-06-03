@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+{% block menu %}{% include 'menu.html' %}{% endblock %}
+
+
+
+{% block headContent %}
+
+
+{% endblock %}
+
+
+
+{% block content %}      
+
+<!-- slider -->    
+    <div class="header_slider">
+    	<div class="container_12">
+        
+        	<div class="sText" id="textSlider">	
+         		<div class="slides_container">   
+
+                            <div class="slide">
+                            	<div class="slide-image" style="padding-top:70px"><img src="/static/img/slider_2_image_1.JPG" alt="" border="0" /></div>
+                              <div class="slide-text-right">
+                                <div class="slide-title"><ahref="#">High-quality work, accurate quotes.</div>
+                                <div class="slide-descr">
+                                  <p>You can count on Oscar to deliver quality craftmanship, whether you need something repaired or created from scratch.</p>
+                                </div>
+                              </div>
+                              <div class="clear"></div>
+                            </div>  
+          
+            
+                            <div class="slide">
+                            	<div class="slide-image" style="padding-left:400px"><img src="/static/img/slider_2_image_2.JPG" alt=""border="0" /></div>
+                              <div class="slide-text-left">
+                                <div class="slide-title"><a href="#"><strong>Local flavor</strong>,<BR> industrial strength.</a></div>
+                                <div class="slide-descr">
+                                  <p>Oscar has the tools and expertise for almost any odd job around your house - carptentry, repairs, hauling and disposal.</p>
+                                </div>
+                              </div>
+                              <div class="clear"></div>
+                            </div> 
+                            
+                            <div class="slide">
+                            	<div class="slide-image" style="padding-top:70px"><img src="/static/img/slider_2_image_3.JPG" alt="" border="0" /></div>
+                              <div class="slide-text-right">
+                                	<div class="slide-title"><a
+                            	href="#">Serving the Bay Area for<BR><strong>over 10 years</strong></a></div>
+                                    <div class="slide-descr">
+                                   	  <p>Oscar has helping people for decades, throughout Berkeley, Oakland, San Francisco, and surrounding areas.</p>
+                                    </div>
+                                  </div>
+                                <div class="clear"></div>
+                            </div>   
+                                               
+                            <div class="slide">
+                              <div class="slide-image" style="padding-top:70px"><img src="/static/img/slider_2_image_4.JPG" alt="" border="0" /></div>
+                              <div class="slide-text-right">
+                                   <div class="slide-title"><a
+                              href="#">Wood, stone, concrete.<BR><strong>Tough jobs, hard work.</strong>.</a></div>
+                                    <div class="slide-descr">
+                                      <p>Oscar has helping people for decades, throughout Berkeley, Oakland, San Francisco, and surrounding areas.</p>
+                                    </div>
+                                  </div>
+                                <div class="clear"></div>
+                            </div>   
+                          
+
+
+                    </div>
+                    <a href="#" class="prev">Previous</a>
+                    <a href="#" class="next">Next</a>
+				</div>
+              
+                <script language="javascript" type="text/javascript" charset="utf-8">
+					$(function(){
+						$('#textSlider').slides({
+							play: 5000,
+							pause: 3000,
+							slideSpeed: 500,
+							hoverPause: true,
+							slideEasing: "easeOutCubic",
+							generatePagination: false
+						});
+					});		
+                </script> 
+        
+        </div>
+    </div>
+<!--/ slider -->
+
+<!-- middle content -->
+<div class="middle">
+	<div class="container_12">
+    	
+	    <div style="margin-left: 250px; margin-bottom: 40px;">
+	    <div class="fb-like" data-href="http://www.facebook.com/OscarTheHandyman" data-send="true" data-width="450" data-show-faces="true" data-action="recommend" data-font="arial"></div>
+	    </div>
+        
+            <div class="title" id="Features">
+                <h1><span></span>Handyman<span> for </span>Berkeley, Oakland, San Francisco<span>, and Bay Area.</span></h1>
+            </div>
+            
+            <!-- middle text -->
+            
+            <div class="text">
+                    
+            <div class="divider"></div>
+            
+            <div class="row">
+                <div class="col col_1_3 box_textstyle-1">
+                	<span class="icon_left"><img
+                src="/static/img/handy-icon.png" alt="" /></span>
+               	  	<h2><span>Handy manservices.</span> </h2>                  
+                    <div class="clear"></div>
+                    <p>Carpentry/woodowork, painting, repairs, concrete, plumbing, hauling, building advice.</p>
+<!--                    <a href="#" class="link-details">View details</a>-->
+   		  		</div>
+                
+                <div class="col col_1_3 box_textstyle-1">
+                	<span class="icon_left"><img
+                	src="/static/img/handshake_64.png" alt="" /></span>
+           	    	<h2><span>An honest day's
+work.</span></h2>
+                    <div class="clear"></div>
+                    <p>Rates are fair and easy - total costs are quoted up front. Rates are based on $50 for the first hour, plus $40/hour and materials.</p>
+<!--                    <a href="#" class="link-details">View details</a>             -->
+          		</div>
+                
+          		<div class="col col_1_3 box_textstyle-1">
+           			<span class="icon_left"><img
+           			src="/static/img/happy.jpg"
+           			alt="" /></span>
+    				<h2><span>You won't call just once.</span></h2>
+                    <div class="clear"></div>
+                    <p>Over the years, people have come to depend on Oscar whenever they have a home repair or construction project. You won't call just once!</p>
+               </div>
+
+			</div>                
+
+            
+          	<div class="divider"></div>
+                           
+               
+                
+                
+       </div>
+        <!--/ middle text -->
+        
+    </div>
+</div> 
+{% endblock %}
